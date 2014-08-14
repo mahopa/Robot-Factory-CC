@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <input type="text" id="name" placeholder="Name"/>
+    <input type="text" id="metal" placeholder="Metal" />
+    <input type="text" id="image" placeholder="Image" />
+    <button onclick="RF.addRobot()" class="btn btn-success" >Build</button>
+    <button onclick="RF.willSortNormal = !RF.willSortNormal; RF.drawTable();" class="btn btn-primary">Sort</button>
+    <div class="table" id="table">
+
+    </div>
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <script src="myJS.js"></script>
+</body>
+</html>
